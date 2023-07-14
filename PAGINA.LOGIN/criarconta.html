@@ -4,41 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stilo.css">
 </head>
 <body>
     <div>
        <table>
          <tr>
             <td>
-                <p>Nome:  <input type="text"> Sobrenome: <input type="text"> </p>
+                <input type="text" name="nome" id="nometxt" placeholder="Nome"> <input type="text" name="snome" id="snometxt" placeholder="Sobrenomme"> 
                 
             </td>
          </tr>
 
          <tr>
             <td>
-                <p>Email: <input type="text"> </p>
+                <input type="text" name="email" id="emailtxt" placeholder="Celular ou email">
             </td>
          </tr>
 
          <tr>
             <td>
-                <p>Nova Senha: <input type="text"> </p>
+                <input type="password" name="senha" id="senhatxt" placeholder="Nova senha">
             </td>
          </tr>
 
          <tr>
             <td>
-                <p>egee: <input type=""> </p>
+                <input type="password" name="confsenha" id="confsenhtxt" placeholder="Confirmar senha">
+            </td>
+         </tr>
+
+         <tr>
+            
+            <td>
+                <p>Data de nascimento &#63;</p>
+                <select id="diatxt" name="dia">
+                </select>
+                <select id="mestxt" name="mes"></select>
+                <select id="anotxt" name="ano"></select>
             </td>
          </tr>
 
          <tr>
             <td>
-                <p>egee: <input type="text"> </p>
+                <input type="radio" name="homem" id="homemtxt" >
+                <label for="homemtxt">Masculino</label>
+
+                <input type="radio" name="mulher" id="mulhertxt">
+                <label for="mulhertxt">Femenino</label>
+
+                <input type="radio" name="outros" id="outrostxt">
+                <label for="outrostxt">Outros</label>
+
             </td>
          </tr>
-       </table> 
+
+            <tr>
+                <td>
+                    <p>CONFIRME SE SEUS DADOS ESTÃO CORRETOS</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>Se todos os dados estiverem corretos sua conta será criada. Ao confirmar você autoriza que entremos em contato com você por nemail ou telefone (todos os dados colocados aqui são protegidos e guardados com segurança) Confirme e sua conta vai ser criada.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="Cadastre-se" onclick="cadastrar()">
+                </td>
+            </tr>
+       </table>
+       
     </div>
+    <script src="scriptcriar.js"></script>
 </body>
 </html>
