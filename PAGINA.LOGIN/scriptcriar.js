@@ -11,7 +11,14 @@ if(nome = '' || sobren == '' || ema == '' || senhan1 == '' || senhan2 ==''){
      alert('um')
 }else{
     alert('A senha difere da primeira')
-} 
-    for()
-
+}    
+   
+    var dia = document.createElement('option')
+    var d = document.querySelector('select#diatxt').value;
+    
+    for(var dia =1; dia <=31; dia++){
+      
+    }
+    
+    tab.appendChild(dia)
 }
