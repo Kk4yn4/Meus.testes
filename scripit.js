@@ -1,4 +1,4 @@
-function votar(){
+/*function votar(){
     var mvoto = document.getElementById('voto').value;
     var res = document.getElementById('res')
     var img =document.getElementById('imagem')
@@ -29,6 +29,8 @@ function votar(){
 function confirmar(){
    window.alert('voto feito com suscesso')
      
+}*/
+
+for(c = 1; c<=9; c++){
+    console.log(`${c}`)
 }
-
-

@@ -7,18 +7,11 @@ var senhan2 = document.querySelector('input#confsenhtxt').value;
 
 if(nome = '' || sobren == '' || ema == '' || senhan1 == '' || senhan2 ==''){
     window.alert('[ERRO] está faltando preencher algum campo!')
-}if(senhan1 == 'um' && senhan2 == 'um'){
-     alert('um')
+}if(senhan1 === senhan2){
+     alert('Sucesso')
 }else{
     alert('A senha difere da primeira')
 }    
    
-    var dia = document.createElement('option')
-    var d = document.querySelector('select#diatxt').value;
     
-    for(var dia =1; dia <=31; dia++){
-      
-    }
-    
-    tab.appendChild(dia)
 }
